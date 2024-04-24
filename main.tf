@@ -8,7 +8,6 @@ module "virtual_machine" {
   location       = var.vm_location
   env = var.env
   user = var.user
-  cohort = var.cohort
   ip_configuration = var.ip_configuration
   private_ip_address = var.private_ip_address
 }

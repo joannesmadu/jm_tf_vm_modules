@@ -80,6 +80,5 @@ resource "azurerm_public_ip" "public_ip_address" {
 locals {
   user = var.user
   env = var.env
-  cohort = format("ce%02d", var.cohort)
   vm_name   = format("%s-%s", local.user, var.string)
 }

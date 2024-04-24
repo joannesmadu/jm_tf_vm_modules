@@ -82,10 +82,6 @@ variable "public_ip_allocation_method" {
   default = "Static"
 }
 
-variable "cohort" {
-  type = number
-}
-
 variable "user" {
   type = string
 }

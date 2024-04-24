@@ -39,10 +39,6 @@ variable "user" {
   type = string
 }
 
-variable "cohort" {
-  type = number
-}
-
 variable "private_ip_address" {
   type = string
   description = "Private IP for VM"

@@ -8,6 +8,5 @@ vm_resource_group = "rg-jmdev-001linuxvm"
 vm_location = "North Europe"
 env = "dev"
 user = "jm"
-cohort = 6
 private_ip_address = "10.0.2.0"
 ip_configuration = "ipconfig1"
